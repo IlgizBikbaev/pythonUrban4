@@ -2,9 +2,9 @@ from math import inf
 
 def divide(first, second):
     if second == 0:
-        print(inf)
+        return inf
     else:
-        return print(first / second)
+        return first / second
 
 
 #result3 = true_divide(49, 7)

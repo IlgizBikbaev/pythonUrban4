@@ -1,9 +1,8 @@
 def divide(first, second):
         if second == 0:
-            message = print("Ошибка ввода. На ноль делить нельхя")
-            return message
+            return "Ошибка"
         else:
-            return print(first / second)
+            return first / second
 
 
 #res1 = fake_divide(69, 3)
